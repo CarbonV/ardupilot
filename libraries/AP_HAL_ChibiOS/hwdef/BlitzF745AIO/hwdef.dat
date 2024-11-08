@@ -155,7 +155,7 @@ include ../include/minimize_fpv_osd.inc
 
 # one IMU: bmi270
 IMU BMI270 SPI:bmi270 ROTATION_ROLL_180_YAW_135
-IMU Invensensev3 SPI:icm42688 ROTATION_ROLL_180_YAW_315
+IMU Invensensev3 SPI:icm42688 ROTATION_ROLL_180_YAW_135
 define HAL_DEFAULT_INS_FAST_SAMPLE 1
 
 # Motor order implies Betaflight/X for standard ESCs
